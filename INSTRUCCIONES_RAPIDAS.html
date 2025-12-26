@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrucciones DECE v4.0</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f7fa;
+        }
+        h1 { color: #2563eb; }
+        .paso {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .paso h2 {
+            color: #10b981;
+            margin-top: 0;
+        }
+        code {
+            background: #f1f3f5;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .importante {
+            background: #fff3cd;
+            border-left: 4px solid #f59e0b;
+            padding: 12px;
+            margin: 16px 0;
+        }
+        .exito {
+            background: #d1fae5;
+            border-left: 4px solid #10b981;
+            padding: 12px;
+            margin: 16px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 DECE Optimizer v4.0 - Instrucciones Rápidas</h1>
+    
+    <div class="paso">
+        <h2>Paso 1: Verificar Archivos</h2>
+        <p>Asegúrate de tener estos archivos en la MISMA carpeta:</p>
+        <ul>
+            <li><code>index.html</code></li>
+            <li><code>app.js</code></li>
+            <li><code>style.css</code></li>
+            <li><code>fix-carga-completo.js</code> ⚠️ NUEVO</li>
+            <li><code>DECE_CRUCE_X_Y_NUC_SAT.csv</code></li>
+        </ul>
+    </div>
+    
+    <div class="paso">
+        <h2>Paso 2: Agregar el Parche al HTML</h2>
+        <p>Abre <code>index.html</code> y agrega ANTES de <code>&lt;/body&gt;</code>:</p>
+        <pre><code>&lt;script src="fix-carga-completo.js"&gt;&lt;/script&gt;</code></pre>
+        
+        <div class="importante">
+            <strong>⚠️ IMPORTANTE:</strong> El parche debe cargarse DESPUÉS de app.js pero ANTES del cierre de body
+        </div>
+    </div>
+    
+    <div class="paso">
+        <h2>Paso 3: Abrir en el Navegador</h2>
+        <p>Opciones:</p>
+        <ol>
+            <li><strong>Doble click en index.html</strong> (método más simple)</li>
+            <li><strong>Servidor local:</strong>
+                <ul>
+                    <li>Python: <code>python -m http.server 8000</code></li>
+                    <li>Node: <code>npx http-server</code></li>
+                    <li>PHP: <code>php -S localhost:8000</code></li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    
+    <div class="paso">
+        <h2>Paso 4: Verificar Consola</h2>
+        <p>Presiona <strong>F12</strong> y ve a <strong>Console</strong></p>
+        <p>Deberías ver:</p>
+        <div class="exito">
+            ✅ Parche DECE v4.0 cargado<br>
+            ✅ Dependencias verificadas<br>
+            ✅ Buscador AMIE agregado<br>
+            📥 Iniciando carga mejorada de CSV...<br>
+            ✅ Parse completo: 12352 filas
+        </div>
+    </div>
+    
+    <div class="paso">
+        <h2>✨ Nuevas Funcionalidades</h2>
+        <ul>
+            <li>🔍 <strong>Buscador de AMIE</strong> en la esquina superior derecha</li>
+            <li>🟠 <strong>Color naranja</strong> para IE 51-120 sin cobertura</li>
+            <li>✅ <strong>Validación automática</strong> de solo fiscales</li>
+            <li>📊 <strong>KPI actualizados</strong> con datos oficiales 2024-2025</li>
+            <li>🎯 <strong>Mismo distrito</strong> en buffers</li>
+            <li>⚠️ <strong>Alertas</strong> para buffers >11km</li>
+        </ul>
+    </div>
+    
+    <div class="paso">
+        <h2>🐛 Si el Problema Persiste</h2>
+        <ol>
+            <li>Verifica que el CSV esté en la misma carpeta</li>
+            <li>Abre la consola (F12) y busca errores en rojo</li>
+            <li>Verifica que fix-carga-completo.js esté cargado</li>
+            <li>Prueba en Chrome o Firefox (no Internet Explorer)</li>
+            <li>Limpia caché: Ctrl+Shift+Delete</li>
+        </ol>
+        
+        <div class="importante">
+            <strong>💡 Tip:</strong> Si ves "Cargando..." por más de 30 segundos, revisa la consola
+        </div>
+    </div>
+    
+    <div class="paso">
+        <h2>📞 Soporte</h2>
+        <p>Si necesitas ayuda, ten lista esta información:</p>
+        <ul>
+            <li>Navegador y versión</li>
+            <li>Mensajes de la consola (F12 → Console)</li>
+            <li>Tamaño del archivo CSV</li>
+            <li>Captura de pantalla del error</li>
+        </ul>
+    </div>
+</body>
+</html>

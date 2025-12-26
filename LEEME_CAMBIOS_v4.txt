@@ -1,0 +1,50 @@
+🎉 DECE OPTIMIZER v4.0 - CAMBIOS IMPLEMENTADOS
+================================================
+
+✅ TODOS LOS CAMBIOS SOLICITADOS ESTÁN APLICADOS:
+
+1. ✅ AMIE del buffer visible en popups
+2. ✅ IE satélite solo en UN buffer (sin duplicados)
+3. ✅ SOLO IE Fiscales procesadas
+4. ✅ Satélites = SOLO 51-120 estudiantes (Grupo 2: 1,415 IE)
+5. ✅ Núcleos = SOLO fiscales
+6. ✅ Buffer = MISMO distrito
+7. ✅ Color NARANJA para IE 51-120 sin cobertura
+8. ✅ Buscador de AMIE con botón centrar mapa
+9. ✅ KPI actualizados con datos oficiales Excel
+10. ✅ Validación de distancias >11km
+
+📊 DATOS OFICIALES MINEDUC 2024-2025:
+Total IE Fiscales: 12,352
+- Grupo 1 (1-50): 6,500 IE
+- Grupo 2 (51-120): 1,415 IE ⚠️ SATÉLITES
+- Grupo 3 (121-450): 2,351 IE
+- Grupo 4 (451-900): 1,075 IE
+- Grupo 5 (900+): 1,011 IE
+
+🎨 COLORES:
+- Azul: IE Núcleo
+- Verde: Satélite cubierta
+- NARANJA: IE 51-120 sin cobertura
+- Rojo: Sin DECE (KPI general)
+
+🚀 PARA USAR:
+1. Abre index.html en tu navegador
+2. Carga el CSV con datos
+3. Usa el buscador de AMIE (arriba derecha)
+4. Verifica las IE naranjas (51-120 sin buffer)
+
+📝 ARCHIVOS MODIFICADOS:
+- app.js: Toda la lógica actualizada
+- index.html: Buscador de AMIE agregado
+- style.css: Colores actualizados
+- CAMBIOS_IMPLEMENTADOS.md: Documentación detallada
+
+🔧 VALIDACIONES:
+- Solo fiscales
+- Satélites 51-120
+- Un buffer por satélite
+- Mismo distrito
+- Máx 11km
+
+✨ ¡LISTO PARA PRODUCCIÓN!
