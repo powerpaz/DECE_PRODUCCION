@@ -1,0 +1,72 @@
+MIT License
+
+Copyright (c) 2024 Ministerio de Educación de Ecuador - DECE Optimizer Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ATTRIBUTION NOTICE:
+
+This software uses the following open-source libraries:
+
+1. Leaflet (BSD 2-Clause License)
+   Copyright (c) 2010-2024, Volodymyr Agafonkin
+   Copyright (c) 2010-2011, CloudMade
+   https://leafletjs.com/
+
+2. PapaParse (MIT License)
+   Copyright (c) 2015 Matthew Holt
+   https://www.papaparse.com/
+
+3. SheetJS (Apache License 2.0)
+   Copyright (C) 2012-present SheetJS LLC
+   https://sheetjs.com/
+
+All rights to these libraries belong to their respective owners.
+
+---
+
+DATA USAGE NOTICE:
+
+The educational institution data (CSV files) used in this project is property 
+of the Ministry of Education of Ecuador and is subject to their data usage 
+policies and regulations. This software is intended for educational and 
+administrative purposes within the scope of the DECE program.
+
+Users must comply with all applicable data protection and privacy laws when 
+using this software, including but not limited to:
+- Ley Orgánica de Protección de Datos Personales (Ecuador)
+- General Data Protection Regulation (GDPR) where applicable
+
+---
+
+DISCLAIMER:
+
+This software is provided for educational and optimization purposes. The 
+algorithms and suggestions provided are tools to assist decision-making and 
+should not be considered as sole determinants for resource allocation. Final 
+decisions should be made by qualified personnel considering all relevant 
+factors including but not limited to: local context, community needs, 
+infrastructure availability, and budget constraints.
+
+---
+
+For questions regarding licensing, please contact:
+[Insert contact information]
