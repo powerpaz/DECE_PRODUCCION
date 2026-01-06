@@ -1881,6 +1881,11 @@ body {
   animation: slideInUp 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
+/* Ocultar/mostrar KPI flotante (panel inferior derecho) */
+#orphanStatsPanel.kpi-hidden {
+  display: none !important;
+}
+
 /* Animación de valores */
 @keyframes pulse {
   0%, 100% {
